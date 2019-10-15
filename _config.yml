@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # 블로그 댓글기능 chg1 false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" #chg1 블로그 댓글기능  false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "souk82-github-io-1" # 블로그 댓글기능 https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "souk82-github-io-1" #chg1 블로그 댓글기능 https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -99,9 +99,9 @@ social:
 
 # chg1 Analytics
 analytics:
-  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" #chg1 false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-150101103-1"
+    tracking_id          : "UA-150101103-1" #chg1 구글 analytics
     anonymize_ip         : # true, false (default)
 
 
@@ -289,10 +289,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true #chg1
+      comments: true #chg1 글에 댓글을 허용하겠다.
       share: true
       related: true
-  # chg1 _pages
+  # chg1 _pages 처음에 없어서 아래 추가
   - scope:
       path: ""
       type: pages
